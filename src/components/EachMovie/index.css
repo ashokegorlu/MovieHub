@@ -1,0 +1,21 @@
+.image-container {
+  height: 250px;
+  width: 150px;
+  border-top-right-radius: 5px;
+}
+.list-item {
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+}
+@media screen and (min-width: 900px) {
+  .list-item {
+    margin-right: 40px;
+  }
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 14px;
+}

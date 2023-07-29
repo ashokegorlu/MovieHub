@@ -1,0 +1,12 @@
+.container {
+  height: 90vh;
+  width: 100vw;
+}
+
+@media screen and (min-width: 100px) {
+  ul {
+    display: flex;
+    margin-right: 10px;
+    flex-wrap: wrap;
+  }
+}
