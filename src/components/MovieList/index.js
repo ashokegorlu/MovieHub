@@ -6,7 +6,7 @@ import { Header } from "../Header";
 const MovieList = () => {
   const storageData = localStorage.getItem("userData");
   if (storageData === null) {
-    window.location.href = "/login";
+    window.location.href = "/signup";
   }
 
   const [movieData, setMovieData] = useState([]);
